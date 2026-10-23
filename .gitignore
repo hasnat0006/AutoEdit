@@ -1,0 +1,34 @@
+# Footage and per-video work: raw clips, cuts, renders, checks, logs.
+# Finished Shorts go to E:\AutoEdit\<video>\, never into the repo.
+/videos/*
+!/videos/README.md
+!/videos/_shared/
+
+# Third-party music. Not shipped; each track is downloaded or generated locally.
+# CREDITS.md and the *.beats.json files stay tracked.
+/videos/_shared/music/*.mp3
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Local Claude Code settings and secrets
+.claude/settings.local.json
+.env
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS and editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/

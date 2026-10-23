@@ -1,0 +1,16 @@
+{
+ "id": "<clip>",
+ "transcript": "transcript.json",
+ "font": "Inter", "font_file": "Inter-700.woff2",
+ "preset": "<clean | box | bounce | karaoke | wipe | calm>", "y": 1380,
+ "accent": "#FFD400", "scrim": 0,
+ "hook": {"text": "<line one>|<line two>", "em": ["<one word>"], "y": 470, "size": 76},
+ "em": [],
+ "punch": [],
+ "sfx": "auto",
+ "sounds": [
+  {"src": "sfx/error.wav",  "at": 0.10,     "dur": 0.6,  "volume": 0.16},
+  {"src": "sfx/thud.wav",   "at": "<mic-drop word>", "dur": 0.6, "volume": 0.42},
+  {"src": "sfx/riser.wav",  "at": "<last line start - 1.25>", "dur": 1.25, "volume": 0.16}
+ ]
+}

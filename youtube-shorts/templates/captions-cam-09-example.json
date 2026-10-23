@@ -1,0 +1,52 @@
+{
+ "id": "cam-09-subs",
+ "transcript": "transcript.json",
+ "font": "Montserrat",
+ "font_file": "Montserrat-700.woff2",
+ "size": 66,
+ "y": 1380,
+ "max_words": 3,
+ "max_chars": 18,
+ "accent": "#FFD400",
+ "scrim": 0,
+ "em": [
+  5,
+  11,
+  16,
+  40,
+  41
+ ],
+ "punch": [
+  "22-24",
+  "49-50"
+ ],
+ "sfx": "auto",
+ "hook": {
+  "text": "Stop playing college|football at 26",
+  "em": [
+   "26"
+  ],
+  "y": 470,
+  "size": 76
+ },
+ "sounds": [
+  {
+   "src": "sfx/error.wav",
+   "at": 0.1,
+   "dur": 0.6,
+   "volume": 0.16
+  },
+  {
+   "src": "sfx/thud.wav",
+   "at": 16.64,
+   "dur": 0.6,
+   "volume": 0.42
+  },
+  {
+   "src": "sfx/riser.wav",
+   "at": 17.95,
+   "dur": 1.25,
+   "volume": 0.16
+  }
+ ]
+}

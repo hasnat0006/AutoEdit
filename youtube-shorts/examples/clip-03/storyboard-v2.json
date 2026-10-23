@@ -1,0 +1,175 @@
+{
+ "id": "clip-03-v2",
+ "duration": 18.267,
+ "video": "input-video.mp4",
+ "origin": "38% 22%",
+ "theme": {},
+ "frame": {
+  "mode": "card",
+  "y": 590
+ },
+ "progress": true,
+ "captions": {
+  "transcript": "transcript.json",
+  "max_words": 3,
+  "em": [
+   "unlucky"
+  ],
+  "size": 74
+ },
+ "beats": [
+  {
+   "type": "credit",
+   "id": "src",
+   "text": "Solved. podcast · 04 Human luck",
+   "in": 0.0,
+   "out": 18.267,
+   "anchor": "-",
+   "y": 200
+  },
+  {
+   "type": "title",
+   "id": "ttl",
+   "text": "It wasn't|bad luck",
+   "em": [
+    1
+   ],
+   "size": 92,
+   "y": 296,
+   "pulse": true,
+   "strike": {
+    "line": 1,
+    "at": 8.0
+   },
+   "swap": {
+    "at": 13.7,
+    "text": "It was|overconfidence",
+    "em": [
+     1
+    ],
+    "size": 82,
+    "y": 306
+   },
+   "in": 0.0,
+   "out": 18.267,
+   "anchor": "-"
+  },
+  {
+   "type": "emoji",
+   "id": "wow",
+   "char": "😲",
+   "x": 975,
+   "y": 612,
+   "size": 130,
+   "in": 0.85,
+   "out": 2.6,
+   "anchor": "surprised"
+  },
+  {
+   "type": "emoji",
+   "id": "die",
+   "char": "🎲",
+   "x": 105,
+   "y": 612,
+   "size": 120,
+   "spin": true,
+   "in": 7.35,
+   "out": 9.3,
+   "anchor": "so unlucky"
+  },
+  {
+   "type": "dots",
+   "id": "odds",
+   "n": 20,
+   "hit": [
+    13
+   ],
+   "label": "5% = 1 in 20",
+   "label_em": [
+    0
+   ],
+   "y": 1316,
+   "at": 8.96,
+   "label_at": 10.08,
+   "in": 8.8,
+   "out": 11.65,
+   "anchor": "five percent"
+  },
+  {
+   "type": "emoji",
+   "id": "up",
+   "char": "📈",
+   "x": 975,
+   "y": 612,
+   "size": 120,
+   "in": 13.15,
+   "out": 14.95,
+   "anchor": "way overestimated"
+  },
+  {
+   "type": "meter",
+   "id": "cert",
+   "label": "Certainty",
+   "x": 110,
+   "y": 1325,
+   "w": 640,
+   "to": 1.35,
+   "over_label": "Too much",
+   "fill_at": 15.6,
+   "dur": 1.0,
+   "in": 15.35,
+   "out": 18.267,
+   "anchor": "way too much certainty"
+  }
+ ],
+ "camera": [
+  [
+   "punch",
+   0.9,
+   1.12
+  ],
+  [
+   "set",
+   3.13,
+   1.0
+  ],
+  [
+   "creep",
+   3.14,
+   7.7,
+   1.06
+  ],
+  [
+   "set",
+   7.797,
+   1.0
+  ],
+  [
+   "set",
+   11.697,
+   1.0
+  ],
+  [
+   "creep",
+   11.7,
+   13.7,
+   1.05
+  ],
+  [
+   "set",
+   13.763,
+   1.12
+  ],
+  [
+   "set",
+   15.03,
+   1.0
+  ],
+  [
+   "creep",
+   15.04,
+   18.2,
+   1.08
+  ]
+ ]
+}

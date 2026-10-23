@@ -1,0 +1,283 @@
+{
+ "id": "clip-03-v3",
+ "duration": 18.267,
+ "video": "input-video.mp4",
+ "origin": "38% 22%",
+ "theme": {},
+ "frame": {
+  "mode": "card",
+  "y": 470
+ },
+ "progress": true,
+ "captions": {
+  "transcript": "transcript.json",
+  "max_words": 3,
+  "style": "plain",
+  "em": [
+   "surprised",
+   "unlucky",
+   "five",
+   "percent",
+   "overestimated",
+   "certainty"
+  ]
+ },
+ "beats": [
+  {
+   "type": "title",
+   "id": "ttl",
+   "text": "It wasn't|bad luck",
+   "em": [
+    1
+   ],
+   "size": 70,
+   "y": 250,
+   "pulse": true,
+   "strike": {
+    "line": 1,
+    "at": 8.0
+   },
+   "swap": {
+    "at": 13.7,
+    "text": "It was|overconfidence",
+    "em": [
+     1
+    ],
+    "size": 62,
+    "underline": 1,
+    "underline_at": 14.35
+   },
+   "in": 0.0,
+   "out": 18.267,
+   "anchor": "-"
+  },
+  {
+   "type": "draw",
+   "id": "shock",
+   "in": 0.9,
+   "out": 2.45,
+   "anchor": "surprised",
+   "shapes": [
+    {
+     "shape": "burst",
+     "cx": 530,
+     "cy": 545,
+     "n": 4,
+     "from": -100,
+     "to": -10,
+     "r0": 30,
+     "r1": 98,
+     "at": 0.98,
+     "dur": 0.15,
+     "width": 10
+    }
+   ]
+  },
+  {
+   "type": "dice",
+   "id": "die",
+   "x": 540,
+   "y": 1268,
+   "size": 104,
+   "face": 1,
+   "in": 7.3,
+   "land": 8.05,
+   "out": 8.75,
+   "anchor": "so unlucky"
+  },
+  {
+   "type": "dots",
+   "id": "odds",
+   "n": 20,
+   "hit": [
+    13
+   ],
+   "ring": true,
+   "ring_at": 9.3,
+   "label": "5% = 1 in 20",
+   "label_em": [
+    0
+   ],
+   "y": 1190,
+   "at": 8.96,
+   "label_at": 10.08,
+   "in": 8.8,
+   "out": 11.65,
+   "anchor": "five percent"
+  },
+  {
+   "type": "chart",
+   "id": "exp",
+   "x": 200,
+   "y": 1175,
+   "w": 570,
+   "h": 165,
+   "in": 13.1,
+   "out": 14.98,
+   "anchor": "way overestimated",
+   "lines": [
+    {
+     "label": "Reality",
+     "color": "text",
+     "width": 6,
+     "points": [
+      [
+       0,
+       0.3
+      ],
+      [
+       0.35,
+       0.38
+      ],
+      [
+       0.7,
+       0.3
+      ],
+      [
+       1,
+       0.36
+      ]
+     ],
+     "at": 13.3,
+     "dur": 0.45
+    },
+    {
+     "label": "Expected",
+     "color": "accent",
+     "points": [
+      [
+       0,
+       0.3
+      ],
+      [
+       0.5,
+       0.62
+      ],
+      [
+       1,
+       1.05
+      ]
+     ],
+     "at": 13.42,
+     "dur": 0.55,
+     "arrow": true
+    }
+   ]
+  },
+  {
+   "type": "meter",
+   "id": "cert",
+   "label": "Certainty",
+   "x": 140,
+   "y": 1200,
+   "w": 600,
+   "to": 1.33,
+   "over_label": "Too much",
+   "fill_at": 15.6,
+   "dur": 1.0,
+   "in": 15.35,
+   "out": 18.267,
+   "anchor": "way too much certainty"
+  }
+ ],
+ "camera": [
+  [
+   "punch",
+   0.9,
+   1.12
+  ],
+  [
+   "set",
+   3.13,
+   1.0
+  ],
+  [
+   "creep",
+   3.14,
+   7.7,
+   1.06
+  ],
+  [
+   "set",
+   7.797,
+   1.0
+  ],
+  [
+   "set",
+   11.697,
+   1.0
+  ],
+  [
+   "creep",
+   11.7,
+   13.7,
+   1.05
+  ],
+  [
+   "set",
+   13.763,
+   1.12
+  ],
+  [
+   "set",
+   15.03,
+   1.0
+  ],
+  [
+   "creep",
+   15.04,
+   18.2,
+   1.08
+  ]
+ ],
+ "sounds": [
+  {
+   "src": "sfx/whoosh-short.wav",
+   "at": 0.82,
+   "dur": 0.5,
+   "volume": 0.24
+  },
+  {
+   "src": "sfx/dice-roll.wav",
+   "at": 7.34,
+   "dur": 0.85,
+   "volume": 0.42
+  },
+  {
+   "src": "sfx/scribble.wav",
+   "at": 7.98,
+   "dur": 0.55,
+   "volume": 0.3
+  },
+  {
+   "src": "sfx/ping.wav",
+   "at": 8.96,
+   "dur": 1.0,
+   "volume": 0.95
+  },
+  {
+   "src": "sfx/whoosh.wav",
+   "at": 13.38,
+   "dur": 0.5,
+   "volume": 0.28
+  },
+  {
+   "src": "sfx/pop.wav",
+   "at": 13.8,
+   "dur": 0.67,
+   "volume": 0.6
+  },
+  {
+   "src": "sfx/riser.wav",
+   "at": 15.4,
+   "dur": 1.25,
+   "volume": 0.2
+  },
+  {
+   "src": "sfx/error.wav",
+   "at": 16.62,
+   "dur": 1.0,
+   "volume": 0.2
+  }
+ ]
+}

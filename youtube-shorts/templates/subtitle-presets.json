@@ -1,0 +1,27 @@
+{
+ "_about": "Subtitle animation presets for subtitles.py: set \"preset\": \"<name>\" in captions.json. A preset only fills in keys the spec leaves out, so anything in the spec still wins. All plain text (NOTES 7), no underlines or bars. Every preset runs to two rows (max_words / max_chars are per row) so a caption stays up long enough to read. Rotate them between Shorts (NOTES 24).",
+ "clean": {
+  "_look": "Words rise in one by one out of a light blur; punch lines cascade by letter. The original house style (codpod12-03 v5).",
+  "style": "rise", "size": 64, "rows": 2, "max_words": 3, "max_chars": 18, "upper": false, "punch_scale": 1.2
+ },
+ "box": {
+  "_look": "Whole caption pops in, uppercase; a yellow box jumps to each word as it is said, that word turning dark on it (clashcam-06).",
+  "style": "highlight", "size": 62, "rows": 2, "max_words": 3, "max_chars": 16, "upper": true, "punch_scale": 1.15
+ },
+ "bounce": {
+  "_look": "Each word bounces in on its word, yellow while it is said, then white (clashcam-03 v3).",
+  "style": "pop", "size": 68, "rows": 2, "max_words": 2, "max_chars": 14, "upper": false, "punch_scale": 1.2
+ },
+ "karaoke": {
+  "_look": "The caption slides up dim and each word lights up as it is said (clashcam-07 v2).",
+  "style": "karaoke", "size": 62, "rows": 2, "max_words": 3, "max_chars": 18, "upper": false, "punch_scale": 1.2
+ },
+ "wipe": {
+  "_look": "Each word is revealed left to right as it is said, sliding a little into place, uppercase. Clean, editorial.",
+  "style": "wipe", "size": 62, "rows": 2, "max_words": 3, "max_chars": 16, "upper": true, "punch_scale": 1.15
+ },
+ "calm": {
+  "_look": "The quietest one: the whole caption fades in at once, nothing else moves; only emphasis words turn yellow when said.",
+  "style": "calm", "size": 58, "rows": 2, "max_words": 4, "max_chars": 20, "upper": false, "punch_scale": 1.15
+ }
+}

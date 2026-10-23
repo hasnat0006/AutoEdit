@@ -1,0 +1,124 @@
+{
+ "id": "clip-03",
+ "duration": 18.267,
+ "video": "input-video.mp4",
+ "origin": "50% 0%",
+ "captions": {
+  "transcript": "transcript.json",
+  "max_words": 3,
+  "max_chars": 18,
+  "em": [
+   "unlucky"
+  ]
+ },
+ "beats": [
+  {
+   "type": "text",
+   "id": "hook",
+   "text": "It wasn't bad luck",
+   "em": [
+    2,
+    3
+   ],
+   "in": 0.0,
+   "out": 3.1,
+   "anchor": "-"
+  },
+  {
+   "type": "clip",
+   "id": "wide",
+   "src": "broll/wide-fill.mp4",
+   "drift": true,
+   "in": 7.8,
+   "out": 11.7,
+   "anchor": "not really"
+  },
+  {
+   "type": "stat",
+   "id": "pct",
+   "value": 5,
+   "suffix": "%",
+   "label": "of the time",
+   "color": "cyan",
+   "at": 8.96,
+   "dur": 0.7,
+   "in": 8.78,
+   "out": 11.62,
+   "anchor": "five percent"
+  },
+  {
+   "type": "chip",
+   "id": "over",
+   "text": "way overestimated",
+   "em": [
+    1
+   ],
+   "in": 13.1,
+   "out": 14.98,
+   "anchor": "way overestimated",
+   "hide_captions": true
+  },
+  {
+   "type": "text",
+   "id": "cert",
+   "text": "Way too much certainty",
+   "em": [
+    3
+   ],
+   "in": 15.4,
+   "out": 18.267,
+   "anchor": "way too much certainty"
+  }
+ ],
+ "camera": [
+  [
+   "punch",
+   0.9,
+   1.07
+  ],
+  [
+   "set",
+   3.13,
+   1.0
+  ],
+  [
+   "creep",
+   3.14,
+   7.7,
+   1.05
+  ],
+  [
+   "set",
+   7.797,
+   1.0
+  ],
+  [
+   "set",
+   11.697,
+   1.0
+  ],
+  [
+   "creep",
+   11.7,
+   13.7,
+   1.03
+  ],
+  [
+   "set",
+   13.763,
+   1.08
+  ],
+  [
+   "set",
+   15.03,
+   1.0
+  ],
+  [
+   "creep",
+   15.04,
+   18.2,
+   1.06
+  ]
+ ],
+ "chip_bg": "rgba(17,17,17,0.8)"
+}

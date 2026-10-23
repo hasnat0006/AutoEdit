@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "motion-graphics": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/motion-graphics/SKILL.md",
+      "computedHash": "1e222908adda01c8eed92dec934363973b6207ff15716a67653435f671f97241"
+    }
+  }
+}

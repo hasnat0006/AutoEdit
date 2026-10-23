@@ -1,0 +1,68 @@
+{
+ "source_duration": 28.523,
+ "kept_seconds": 18.25,
+ "kept": [
+  {
+   "start": 1.39,
+   "end": 4.51
+  },
+  {
+   "start": 4.86,
+   "end": 9.52
+  },
+  {
+   "start": 11.74,
+   "end": 17.7
+  },
+  {
+   "start": 18.14,
+   "end": 19.42
+  },
+  {
+   "start": 19.85,
+   "end": 23.08
+  }
+ ],
+ "removed": [
+  {
+   "start": 0.0,
+   "end": 1.39,
+   "reason": "opening fragment 'out well that they're almost'",
+   "text": ""
+  },
+  {
+   "start": 4.51,
+   "end": 4.86,
+   "reason": "pause",
+   "text": ""
+  },
+  {
+   "start": 9.52,
+   "end": 11.74,
+   "reason": "host 'Yeah.' + 'It's like'",
+   "text": ""
+  },
+  {
+   "start": 17.7,
+   "end": 18.14,
+   "reason": "pause",
+   "text": ""
+  },
+  {
+   "start": 19.42,
+   "end": 19.85,
+   "reason": "host 'Right.'",
+   "text": ""
+  },
+  {
+   "start": 23.08,
+   "end": 28.523,
+   "reason": "unfinished last sentence",
+   "text": ""
+  }
+ ],
+ "hand_cut": true,
+ "hand_fixes": [
+  "edges set by the audio envelope: outcomes/right kept whole, 'work' ends 23.07, host lines cut in their quiet gaps"
+ ]
+}
