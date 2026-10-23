@@ -157,16 +157,24 @@ always measured), runs `verify-render.py` with the clipped-words check, copies t
 `~/Videos/YouTube Shorts/<folder>/`. A "clipped word" on a fast or overlapping line is usually ASR noise: transcribe
 that stretch alone before calling it a clip. Black flashes that are in the source edit stay.
 
-**Thumbnail:** every delivered Short gets one. Run the `shorts-thumbnail` skill on the fresh cut (3 versions and a
-check sheet in `E:/AutoEdit/<video>/thumbnails/`, the chosen one added to the upload-info .txt) and show the
-check sheet with the Short.
-
 Report: what is on screen and when (a short table), what you fixed in review, the checks, your own concerns
 (a guessed word, a name to confirm, rights for someone else's show), and update the font line in NOTES.md.
 Offer a title and description when asked (for a show: its name and platform worked into the text, its hashtag).
 
-**Editing it in CapCut:** when the creator wants the Short as a CapCut project, or has changed one there, the
-`edit-with-capcut` skill takes over after step 6 (export, then rounds on their version).
+## Basic edit (one moment, no extras)
+
+When the user asks for a "very basic" edit, or just a plain Short from a moment in `moments.json`, skip steps 3 to 7
+and run the basic builder. It puts the fresh cut on a 1080x1920 black frame (the whole 16:9 picture, not cropped),
+burns the transcript's own words under it as plain subtitles, keeps the original voice, and writes the upload .txt:
+
+```bash
+PYTHONUTF8=1 python .claude/skills/pro-shorts/scripts/basic_short.py --moments "E:/AutoEdit/<video>/moments.json" \
+    --id m03 --prefix <show> --transcript videos/<episode>/transcript.json
+```
+It writes `E:/AutoEdit/<video>/edited/<prefix>-NN-<slug>-short-v1.mp4` and `.txt`, and marks the moment `edited` in
+`moments.json`. It refuses to overwrite. The moment's `caption` field (own words, the positive line about the guest,
+`#Ad` on its own line for the Clipping Culture campaign) goes into the .txt, so set it before running. No music, no
+B-roll, no motion: add those with the full steps above only when asked.
 
 ## Keep it learning
 
